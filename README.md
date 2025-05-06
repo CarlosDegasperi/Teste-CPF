@@ -1,27 +1,30 @@
 # Projeto CPF
+- Matéria Qualidade e Teste de Software DSM-6 (Fatec 1.Semestre de 2025)
+- Prof Orlando da Silva Nascimento
 
 Este projeto tem como objetivo validar números de CPF (Cadastro de Pessoas Físicas) utilizando a linguagem Python. Inclui também testes unitários desenvolvidos com o framework `UnitTest`.
 
 ## 🧾 Sobre o CPF
 
-O CPF é um número de 11 dígitos utilizado no Brasil para identificar contribuintes. Os dois últimos dígitos são verificadores, calculados a partir dos nove primeiros.
+O CPF é um número de 11 dígitos utilizado no Brasil para identificar contribuintes. Os dois últimos dígitos são verificadores, calculados a partir dos nove primeiros com base no cálculo de Módulo 11.
 
 Este projeto implementa:
 
 - Validação do formato e dos dígitos verificadores do CPF
-- Rejeição de CPFs com todos os dígitos iguais
+- Rejeição de CPFs com formato inválido
 - Testes automatizados para garantir a corretude do algoritmo
 
 ## 🚀 Tecnologias Utilizadas
 
 - Python 3.8+
-- `unittest` (biblioteca padrão do Python para testes)
+- `UnitTest` (biblioteca padrão do Python para testes)
 
 ## ✅ Como Usar
 
 ## Clonar o repositório
 
 git clone https://github.com/seu-usuario/projeto-cpf.git
+
 cd projeto-cpf
 
 ## Executar a validação
