@@ -1,6 +1,6 @@
-# Projeto CPF
-- Matéria Qualidade e Teste de Software DSM-6 (Fatec 1.Semestre de 2025)
-- Prof Orlando da Silva Nascimento
+# Projeto CPF (Clipper para Python)
+- Disciplina: Qualidade e Teste de Software DSM-6 (Fatec Araras - 1.Semestre/2025)
+- Prof Orlando Saraiva do Nascimento Junior
 
 Este projeto tem como objetivo validar números de CPF (Cadastro de Pessoas Físicas) utilizando a linguagem Python. Inclui também testes unitários desenvolvidos com o framework `UnitTest`.
 
