@@ -1,6 +1,7 @@
 # cpf.py
 # Este módulo CALCULA os dois digitos verificadores do CPF
-# OBS: Para o cálculo é o usado o MODULO11 de acordo com a RF
+# OBS: Para o cálculo é o usado o MODULO11 de acordo com a 
+# Receita Federal
 
 def digitos_cpf(cpf_parcial: str) -> str:
     if not cpf_parcial.isdigit() or len(cpf_parcial) != 9:
@@ -19,7 +20,7 @@ def digitos_cpf(cpf_parcial: str) -> str:
 
     return primeiro_digito + segundo_digito
 
-# Bloco para execução direta
+# Bloco para execução direta 
 if __name__ == "__main__":
     cpf_parcial = input("Digite os 9 primeiros dígitos do CPF (somente números): ").strip()
     try:
