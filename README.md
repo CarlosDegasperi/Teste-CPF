@@ -23,9 +23,9 @@ Este projeto implementa:
 
 ## Clonar o repositório
 
-git clone https://github.com/seu-usuario/projeto-cpf.git
+git clone https://github.com/CarlosDegasperi/Teste-CPF.git
 
-cd projeto-cpf
+cd Teste-CPF
 
 ## Executar a validação
 python cpf.py
